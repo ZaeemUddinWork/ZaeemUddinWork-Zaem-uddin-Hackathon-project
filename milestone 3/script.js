@@ -36,12 +36,6 @@ function Show_Resume() {
     download_resume.disabled = true;
     clearInputFields(); // Clear input fields when showing the form
 }
-// Show the resume form for editing
-function Edit_Resume() {
-    Resume_build_box.style.display = "inline-block";
-    btn_box.style.display = "none";
-    Resume_result.style.display = "none";
-}
 // Clear all input fields
 function clearInputFields() {
     if (Fullname)
